@@ -1,0 +1,67 @@
+# ----------------------------
+# Emacs generated files
+# ----------------------------
+*.elc
+*.eln
+*.log
+
+# Native compilation cache
+eln-cache/
+var/eln-cache/
+
+# Auto-save / backups
+auto-save-list/
+backups/
+tramp/
+recentf
+savehist
+places
+projectile-bookmarks.eld
+
+# Desktop / session state
+desktop/
+*.desktop
+*.desktop.lock
+
+# Package system (ELPA / Straight)
+elpa/
+straight/build/
+straight/repos/*/node_modules/
+
+# Cache / state dirs
+var/
+url/
+transient/
+eshell/
+bookmarks
+smex-items
+ido.last
+history
+
+# LSP / DAP / tooling
+.lsp-session-v1
+.lsp-session-v1.bak
+.dap-breakpoints
+.eglot/
+
+# Tree-sitter
+tree-sitter/
+
+# Org-mode generated files
+org-clock-save.el
+org-id-locations
+.org-id-locations
+org-persist/
+
+# Flycheck / Flymake
+flycheck_*
+flymake_*
+
+# Network security
+network-security.data
+
+# Custom file (if separated)
+custom.el
+
+# Locks
+.#*
