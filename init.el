@@ -21,3 +21,10 @@
 
 (use-package vterm
   :ensure t)
+
+(defun my/open-vterm ()
+  "Open vterm."
+  (interactive)
+  (vterm))
+
+(global-set-key (kbd "C-`") 'my/open-vterm)
