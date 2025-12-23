@@ -5,6 +5,8 @@
 *.eln
 *.log
 *~
+*#
+tramp
 
 # Native compilation cache
 eln-cache/
